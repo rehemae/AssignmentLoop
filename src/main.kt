@@ -17,6 +17,8 @@ fun intergersArray(num:Array<Int>):Int {
    return product
 }
 fun sumInterger(mixedArr:Array<Any>):Double{
+
+
     var x=0.0
    mixedArr.forEach {a ->
        if (a is Double)
